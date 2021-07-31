@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx-kiran:
+   restart: always
+   image: nginx:latest
+   ports:
+   - "80:8080"
